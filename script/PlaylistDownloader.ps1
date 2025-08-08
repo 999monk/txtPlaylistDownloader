@@ -79,7 +79,6 @@ $duration = ($endTime - $startTime).ToString('hh\:mm\:ss')
 
 Write-Host "`n RESUMEN FINAL" -ForegroundColor Magenta
 Write-Host "  Total:       $($tracks.Count)" -ForegroundColor White
-Write-Host "  Descargadas: $SuccessCount" -ForegroundColor Green
 Write-Host "  Fallidas:    $FailCount" -ForegroundColor Red
 Write-Host "  Duración:    $duration" -ForegroundColor White
 
